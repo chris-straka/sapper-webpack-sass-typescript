@@ -1,3 +1,15 @@
+[Special thanks to kaisermann for svelte-preprocess](https://github.com/kaisermann/svelte-preprocess)
+
+[Typescript has limited support](https://github.com/kaisermann/svelte-preprocess#typescript)
+
+Make sure your style and script tags have...
+```
+<style lang="scss">
+<script lang="typescript">
+```
+
+browserslist set to last 2 versions in package.json.
+___
 # sapper-template
 
 The default [Sapper](https://github.com/sveltejs/sapper) template, available for Rollup and webpack.
